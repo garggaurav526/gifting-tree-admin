@@ -1,0 +1,75 @@
+.main-contant {
+    // box-shadow: 0 4px 15px 0 rgba(23, 147, 194, 0.18);
+    height: calc(100vh - 125px);
+    margin-top: 100px;
+    top: -4.8%;
+    width: 90%;
+    height: 84%;
+    position: absolute;
+    left: 15.4%;
+    width: 83%;
+    h2.ui.header.heading-page{
+        margin-bottom: 40px;
+    }
+    .table-custom{
+        background: #fff;
+        margin-top: 15px;
+        .pagination{
+            .ui.pagination.menu{
+                float: right;
+            }
+        }
+    }
+    .search-box{
+.input-search{
+    input[type="text"]{
+        border-radius: 30px;
+    }
+}
+    }
+    button.ui.button.primary-add-btn{
+    background: #2d3e50;
+    color: #fff;
+    float: right;
+    }
+    .form-div-btn{
+        float: right;
+        margin-top: 20px;
+        button.ui.button.form-primary-cancle-btn{
+            width: 120px;
+            border-radius: 30px;
+            margin-right: 20px;
+        }
+        button.ui.button.form-primary-add-btn{
+            background: #2d3e50;
+    color: #fff;
+    width: 120px;
+    border-radius: 30px;
+        }
+    }
+  
+}
+.ui.tiny.modal.transition.visible.active.modal-open-create{
+    .content-center.content{
+        .btn-parent-div{
+            margin-top: 25px;
+            button.ui.button.create-btn-modal{
+                background: #2d3e50;
+                color: #fff;
+                float: right;
+                margin-right: 90px;
+                width: 126px;
+                border-radius: 30px;
+
+            }
+            button.ui.button.cancle-btn-modal{
+                margin-left: 90px;
+                margin-right: 60px;
+                width: 126px;
+                border-radius: 30px;
+            
+            }
+        }
+    }
+    
+}

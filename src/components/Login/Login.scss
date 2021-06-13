@@ -1,0 +1,85 @@
+@import "../Sys/Variable.scss";
+
+.bg-image {
+  // background-image: url("../../assets/img/bg-login-img.png");
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  background-color:$backgroundWhite;
+  // display: flex;
+}
+
+.login-form {
+  max-height: 700px;
+  overflow-y: auto;
+  width: 460px;
+  padding: 50px;
+  margin:  auto;
+  margin-left: 10%;
+  border-radius: 5px;
+  padding-top: 0 !important;
+  margin: 0 auto;
+  box-shadow: 0 4px 15px 0 rgba(170, 201, 213, 0.25);
+  .field {
+    label {
+      color: #7d8491 !important;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+    }
+    .ui.input input {
+      padding: 11px;
+    }
+  }
+  .login-input {
+    margin-top: 35px;
+  }
+  .bottom-contant {
+    width: 100%;
+    .text-last-login {
+      font-size: 16px;
+      text-align: center;
+      display: block;
+      line-height: 1.63;
+    }
+  }
+}
+
+.ui.small.form {
+  width: 100%;
+  .header-login {
+    font-size: 40px;
+    color: $blackText;
+    .sub.header {
+      color: #7c8187;
+    }
+  }
+}
+button.ui.button {
+  &.btn_big_text {
+    box-shadow: 0 3px 15px 0 rgba(141, 252, 231, 0.24);
+    width: 100%;
+    padding: 13px;
+    background-color: $buttonColor;
+    color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px 0 rgba(170, 201, 213, 0.25);
+    .btn_big_text:hover {
+      background-color: $buttonColor;
+    }
+    .btn_big_text::before {
+      background-color: $buttonColor;
+    }
+    .btn_big_text::after {
+      background-color: $buttonColor;
+    }
+  }
+}
+
+.label-text {
+  color: #fff !important;
+}
